@@ -118,7 +118,7 @@ namespace NumericalNewton
                 }
 
                 x0 = x1;
-                x1 = x0 - this._function(x0)/this._functionDerivative(x0);
+                x1 = x0 - _function(x0)/_functionDerivative(x0);
             }
 
             return Double.NaN;
