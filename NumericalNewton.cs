@@ -112,8 +112,6 @@ namespace NumericalNewton
 
                 if (Math.Abs(x1 - x0) <= _tol)
                 {
-                    // Console.WriteLine("Iterations=" + k);
-                    // Console.WriteLine("Value=" + _function(x1));
                     return x1;
                 }
 
